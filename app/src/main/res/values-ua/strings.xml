@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Tool_account_client</string>
+
+    <!-- activity_main -->
+    <string name="language" translatable="false">Оберіть мову:</string>
+    <string name="en" translatable="false">Англійська:</string>
+    <string name="ua" translatable="false">Українська:</string>
+    <string name="it" translatable="false">Італійська:</string>
+    <string name="enter_phone" translatable="false">Номер телефону:</string>
+    <string name="enter_password" translatable="false">Введіть пароль:</string>
+    <string name="btn_txt" translatable="false">Увійти</string>
+    <string name="textRegistration" translatable="false">Або зареєструватися</string>
+    <string name="textForgotPassword" translatable="false">Забули пароль?</string>
+
+    <!-- stock_menu -->
+    <string name="txt_stock_menu" translatable="false">Меню</string>
+    <string name="txt_private_area" translatable="false">особистого кабінету</string>
+    <string name="btn_my_tools" translatable="false">Мої інструменти</string>
+    <string name="btn_tools_in_stock" translatable="false">На складі</string>
+    <string name="btn_issued_tools" translatable="false">Видані</string>
+    <string name="btn_order_desk" translatable="false">Стіл замовлень</string>
+
+    <!-- MainActivity -->
+    <string name="login_successful" translatable="false">Вхід успішний!</string>
+    <string name="higher_privileges" translatable="false">Ви маєте вищі права ніж додаток може надати.</string>
+    <string name="incorrect_password" translatable="false">Невірний пароль.</string>
+    <string name="user_not_found" translatable="false">Користувача з таким номером телефону не знайдено.</string>
+    <string name="error_occurred" translatable="false">Помилка: %1$s</string>
+
+    <!-- activity_registration -->
+    <string name="txt_registrationTxt" translatable="false">Реєстрація</string>
+    <string name="txt_phone_registration" translatable="false">Номер телефону</string>
+    <string name="txt_password_registration" translatable="false">Ваш пароль</string>
+    <string name="txt_repeat_registration" translatable="false">Повторіть пароль</string>
+    <string name="txt_registration_name" translatable="false">Введіть ім\'я</string>
+    <string name="txt_registration_surname" translatable="false">Введіть прізвище</string>
+    <string name="txt_registration_position" translatable="false">Введіть посаду</string>
+    <string name="btn_registration" translatable="false">Зареєструватись</string>
+
+    <!-- activity_forgot_password -->
+    <string name="forgot_password_txt" translatable="false">Для скидання пароля зв\'яжіться з адміністратором</string>
+    <string name="enter_new_password" translatable="false">Введіть новий пароль тут</string>
+    <string name="repeat_new_password" translatable="false">Повторіть новий пароль тут</string>
+    <string name="forgot_phone_number" translatable="false">Введіть свій номер телефону</string>
+    <string name="txt_getPassword" translatable="false">Змінити пароль</string>
+    <string name="txt_backToMain" translatable="false">Назад на головну</string>
+
+    <string name="list_header" translatable="false">Натисніть на поле</string>
+    <string name="list_header_two" translatable="false">Тільки для перегляду</string>
+
+    <string-array name="languages_array">
+        <item>English</item>
+        <item>Українська</item>
+        <item>Italiano</item>
+    </string-array>
+    <!-- Стиль для Spinner -->
+    <style name="SpinnerTheme" parent="Widget.AppCompat.Spinner">
+        <!-- Текст білий для головного екрану -->
+        <item name="android:textColor">@color/white</item>
+        <!-- Текст чорний для випадаючого списку -->
+        <item name="android:dropDownSelector">@color/black</item>
+    </style>
+</resources>
+
+
+
+

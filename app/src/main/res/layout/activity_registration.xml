@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:importantForAutofill="no">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/registration"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backfon"
+    tools:context=".RegistrationActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_registrationTxt"
+        android:textColor="@color/white"
+        android:textSize="46sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064" />
+
+    <EditText
+        android:id="@+id/registration_phone"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:autofillHints="number"
+        android:backgroundTint="@color/white"
+        android:hint="@string/txt_phone_registration"
+        android:inputType="phone"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintWidth_percent="0.75" />
+
+    <EditText
+        android:id="@+id/registration_name"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:autofillHints=""
+        android:backgroundTint="@color/white"
+        android:hint="@string/txt_registration_name"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325"
+        app:layout_constraintWidth_percent="0.75" />
+
+    <EditText
+        android:id="@+id/registration_surname"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:autofillHints="surname"
+        android:backgroundTint="@color/white"
+        android:hint="@string/txt_registration_surname"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45"
+        app:layout_constraintWidth_percent="0.75" />
+
+    <EditText
+        android:id="@+id/registration_position"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:autofillHints="surname"
+        android:backgroundTint="@color/white"
+        android:hint="@string/txt_registration_position"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.575"
+        app:layout_constraintWidth_percent="0.75" />
+
+    <EditText
+        android:id="@+id/registration_password"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:autofillHints="password"
+        android:backgroundTint="@color/white"
+        android:hint="@string/txt_password_registration"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7"
+        app:layout_constraintWidth_percent="0.75"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/registration_repeat"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:autofillHints="password"
+        android:backgroundTint="@color/white"
+        android:hint="@string/txt_repeat_registration"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825"
+        app:layout_constraintWidth_percent="0.75" />
+
+    <Button
+        android:id="@+id/registration_btn_sign"
+        android:layout_width="0dp"
+        android:layout_height="62dp"
+        android:backgroundTint="@color/green"
+        android:text="@string/btn_registration"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.949"
+        app:layout_constraintWidth_percent="0.78" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

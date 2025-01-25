@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Tool_account_client</string>
+
+    <!-- головна -->
+    <string name="language" translatable="false">Seleziona la lingua:</string>
+    <string name="en" translatable="false">Inglese:</string>
+    <string name="ua" translatable="false">Ucraino:</string>
+    <string name="it" translatable="false">Italiano:</string>
+    <string name="enter_phone" translatable="false">Numero di telefono:</string>
+    <string name="enter_password" translatable="false">Inserisci la password:</string>
+    <string name="btn_txt" translatable="false">Accedi</string>
+    <string name="textRegistration" translatable="false">Oppure registrati</string>
+    <string name="textForgotPassword" translatable="false">Dimenticato la password?</string>
+
+    <!-- stock_menu -->
+    <string name="txt_stock_menu" translatable="false">Menu</string>
+    <string name="txt_private_area" translatable="false">dell\'area privata</string>
+    <string name="btn_my_tools" translatable="false">I miei strumenti</string>
+    <string name="btn_tools_in_stock" translatable="false">In magazzino</string>
+    <string name="btn_issued_tools" translatable="false">Dato via</string>
+    <string name="btn_order_desk" translatable="false">Tabella ordini</string>
+
+    <!-- MainActivity -->
+    <string name="login_successful" translatable="false">Accesso riuscito!</string>
+    <string name="higher_privileges" translatable="false">Hai privilegi più elevati di quelli che l\'app può fornirti.</string>
+    <string name="incorrect_password" translatable="false">Password errata.</string>
+    <string name="user_not_found" translatable="false">L\'utente con questo numero di telefono non è stato trovato.</string>
+    <string name="error_occurred" translatable="false">Si è verificato un errore: %1$s</string>
+
+    <!-- activity_registration -->
+    <string name="txt_registrationTxt" translatable="false">Registrazione</string>
+    <string name="txt_phone_registration" translatable="false">Numero di telefono</string>
+    <string name="txt_password_registration" translatable="false">La tua password</string>
+    <string name="txt_repeat_registration" translatable="false">Ripeti la password</string>
+    <string name="txt_registration_name" translatable="false">Il tuo nome</string>
+    <string name="txt_registration_surname" translatable="false">Il tuo cognome</string>
+    <string name="txt_registration_position" translatable="false">La tua posizione</string>
+    <string name="btn_registration" translatable="false">Registrazione</string>
+
+    <!-- activity_forgot_password -->
+    <string name="forgot_password_txt" translatable="false">Per cambiare la password, chiama l`amministratore.</string>
+    <string name="enter_new_password" translatable="false">Inserisci qui la nuova password</string>
+    <string name="repeat_new_password" translatable="false">Ripeti qui la nuova password</string>
+    <string name="forgot_phone_number" translatable="false">Inserisci il tuo numero</string>
+    <string name="txt_getPassword" translatable="false">Ottieni la password</string>
+    <string name="txt_backToMain" translatable="false">Torna alla pagina principale</string>
+
+    <string name="list_header" translatable="false">Premere sul campo</string>
+    <string name="list_header_two" translatable="false">Solo per la visione</string>
+
+
+    <string-array name="languages_array">
+        <item>English</item>
+        <item>Українська</item>
+        <item>Italiano</item>
+    </string-array>
+    <!-- Стиль для Spinner -->
+    <style name="SpinnerTheme" parent="Widget.AppCompat.Spinner">
+        <!-- Текст білий для головного екрану -->
+        <item name="android:textColor">@color/white</item>
+        <!-- Текст чорний для випадаючого списку -->
+        <item name="android:dropDownSelector">@color/black</item>
+    </style>
+</resources>
+
+
+
+

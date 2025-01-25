@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Tool_account_client</string>
+
+    <!-- activity_main -->
+    <string name="language" translatable="false">Choose language:</string>
+    <string name="en" translatable="false">English:</string>
+    <string name="ua" translatable="false">Ukrainian:</string>
+    <string name="it" translatable="false">Italian:</string>
+    <string name="enter_phone" translatable="false">Phone number:</string>
+    <string name="enter_password" translatable="false">Enter password:</string>
+    <string name="btn_txt" translatable="false">Login</string>
+    <string name="textRegistration" translatable="false">Or register</string>
+    <string name="textForgotPassword" translatable="false">Forgot password?</string>
+
+    <!-- stock_menu -->
+    <string name="txt_stock_menu" translatable="false">Menu</string>
+    <string name="txt_private_area" translatable="false">of private area</string>
+    <string name="btn_my_tools" translatable="false">My tools</string>
+    <string name="btn_tools_in_stock" translatable="false">In stock</string>
+    <string name="btn_issued_tools" translatable="false">Issued tools</string>
+    <string name="btn_order_desk" translatable="false">Order desk</string>
+
+    <!-- MainActivity -->
+    <string name="login_successful" translatable="false">Login successful!</string>
+    <string name="higher_privileges" translatable="false">You have higher privileges than the app can provide.</string>
+    <string name="incorrect_password" translatable="false">Incorrect password.</string>
+    <string name="user_not_found" translatable="false">User with this phone number not found.</string>
+    <string name="error_occurred" translatable="false">Error occurred: %1$s</string>
+
+    <!-- activity_registration -->
+    <string name="txt_registrationTxt" translatable="false">Registration</string>
+    <string name="txt_phone_registration" translatable="false">Phone number:</string>
+    <string name="txt_password_registration" translatable="false">Your password</string>
+    <string name="txt_repeat_registration" translatable="false">Repeat password</string>
+    <string name="txt_registration_name" translatable="false">Enter your name</string>
+    <string name="txt_registration_surname" translatable="false">Enter your surname</string>
+    <string name="txt_registration_position" translatable="false">Enter your position</string>
+    <string name="btn_registration" translatable="false">Sign in</string>
+
+    <!-- activity_forgot_password -->
+    <string name="forgot_password_txt" translatable="false">If You have forgotten the password, call the administrator.</string>
+    <string name="enter_new_password" translatable="false">Enter a new Password here</string>
+    <string name="repeat_new_password" translatable="false">Repeat a new Password here</string>
+    <string name="forgot_phone_number" translatable="false">Enter your phone number</string>
+    <string name="txt_getPassword" translatable="false">Get password</string>
+    <string name="txt_backToMain" translatable="false">Back to main</string>
+
+    <!-- RegistrationActivity -->
+    <string name="registration_fields_empty" translatable="false">fields cannot be empty</string>
+    <string name="registration_passwords_match" translatable="false">the passwords do not match</string>
+    <string name="registration_phone_exists" translatable="false">phone already exists</string>
+    <string name="registration_successful" translatable="false">registration successful</string>
+    <string name="registration_failed" translatable="false">registration failed</string>
+    <string name="registration_error" translatable="false">error connecting to db</string>
+
+    <!-- tool_item -->
+    <string name="textItem" translatable="false">Grid text here ...</string>
+    <string name="btnText" translatable="false">away</string>
+    <string name="textId" translatable="false">Id</string>
+
+    <string name="list_header" translatable="false">Press on the field</string>
+    <string name="list_header_two" translatable="false">For viewing only</string>
+
+    <string-array name="languages_array">
+        <item>English</item>
+        <item>Українська</item>
+        <item>Italiano</item>
+    </string-array>
+    <!-- Стиль для Spinner -->
+    <style name="SpinnerTheme" parent="Widget.AppCompat.Spinner">
+        <!-- Текст білий для головного екрану -->
+        <item name="android:textColor">@color/white</item>
+        <!-- Текст чорний для випадаючого списку -->
+        <item name="android:dropDownSelector">@color/black</item>
+    </style>
+</resources>
+
+
+
+
